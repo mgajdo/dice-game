@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(52, 53, 62);
+  text-align: center;
+}
+
+h1 {
+  color: rgb(91, 209, 151);
+  font-family: 'Pacifico', cursive;
+  font-size: 8rem;
+  text-shadow: 12px 10px 0 rgb(33, 35, 44);
+}
+
+h2 {
+  color: rgb(91, 209, 151);
+  font-family: 'Gochi Hand', cursive;
+  font-size: 3rem;
+}
+
+footer {
+  background-color: rgb(33, 35, 44);
+  text-align: center;
+
+
+}
+
+footer p{
+  font-family: 'Gochi Hand', cursive;
+  font-size: 1.2rem;
+  color: rgb(249, 240, 213);
+padding: 50px 0;
+  margin: 30px 0 0;
+
+}
+
+.btn {
+  background-color: rgb(52, 53, 62);
+  border: none;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+  /* When clicking on the button, it deletes the "border" */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: auto 0 250px;
+}
+
+.container .fas {
+  font-size: 15rem;
+  background-color: rgb(249, 240, 213);
+  color: rgb(130, 17, 17);
+  line-height: 0.6;
+  margin: 30px auto;
+  text-shadow: 12px 10px 16px rgb(33, 35, 44);
+
+
+}
+
+.player {
+  margin: auto 50px;
+}
+
+/*Javascript Events*/
+
+.fa-flag {
+  color: rgb(130, 17, 17);
+}
